@@ -1,0 +1,48 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 120) rotate(90) scale(112)">
+      <stop stop-color="#EEF8FF"/>
+      <stop offset="1" stop-color="#DDF0FF"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="78" y1="56" x2="168" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7CF"/>
+      <stop offset="1" stop-color="#F8CCA5"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="76" y1="50" x2="171" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AA8CD"/>
+      <stop offset="1" stop-color="#1D7FA7"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="112" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="108" width="84" height="84" rx="32" fill="url(#skin)" stroke="url(#stroke)" stroke-width="6"/>
+
+    <rect x="84" y="66" width="15" height="62" rx="7.5" transform="rotate(-12 84 66)" fill="#FFE9D4" stroke="#267FA7" stroke-width="5"/>
+    <rect x="106" y="56" width="15" height="70" rx="7.5" transform="rotate(-4 106 56)" fill="#FFE7CF" stroke="#267FA7" stroke-width="5"/>
+    <rect x="128" y="56" width="15" height="70" rx="7.5" transform="rotate(4 128 56)" fill="#FFE7CF" stroke="#267FA7" stroke-width="5"/>
+    <rect x="150" y="66" width="15" height="62" rx="7.5" transform="rotate(12 150 66)" fill="#FFE9D4" stroke="#267FA7" stroke-width="5"/>
+
+    <path d="M73 138
+             C65 131 64 120 71 113
+             C77 107 87 108 93 114
+             C97 118 98 124 95 131
+             C92 138 93 145 97 151
+             C101 156 102 162 98 167
+             C93 173 83 172 78 165
+             C73 159 73 151 76 144Z"
+          fill="#FFE2C5" stroke="#267FA7" stroke-width="5" stroke-linejoin="round"/>
+
+    <ellipse cx="118" cy="154" rx="15.5" ry="13.5" fill="#FFEFD9" opacity="0.9"/>
+    <ellipse cx="102" cy="134" rx="5.2" ry="4.2" fill="#FFF4E6" opacity="0.8"/>
+    <ellipse cx="134" cy="134" rx="5.2" ry="4.2" fill="#FFF4E6" opacity="0.8"/>
+    <ellipse cx="118" cy="170" rx="5.5" ry="4.5" fill="#F3C8A0" opacity="0.55"/>
+  </g>
+
+  <defs>
+    <filter id="shadow" x="48" y="40" width="138" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="4.2" flood-color="#2A88AE" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+</svg>

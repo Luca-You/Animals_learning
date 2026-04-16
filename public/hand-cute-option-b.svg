@@ -1,0 +1,30 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 120) rotate(90) scale(112)">
+      <stop stop-color="#FFFDF1"/>
+      <stop offset="1" stop-color="#FFF3C8"/>
+    </radialGradient>
+    <linearGradient id="palmB" x1="66" y1="56" x2="178" y2="192" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD0A1"/>
+      <stop offset="1" stop-color="#FFBC76"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="112" fill="url(#bgB)"/>
+  <g filter="url(#fB)">
+    <rect x="74" y="90" width="98" height="100" rx="36" fill="url(#palmB)" stroke="#D67D2B" stroke-width="6"/>
+    <rect x="76" y="56" width="18" height="58" rx="9" fill="#FFC98F" stroke="#D67D2B" stroke-width="6"/>
+    <rect x="98" y="46" width="18" height="68" rx="9" fill="#FFD3A4" stroke="#D67D2B" stroke-width="6"/>
+    <rect x="120" y="44" width="18" height="70" rx="9" fill="#FFD9B2" stroke="#D67D2B" stroke-width="6"/>
+    <rect x="142" y="52" width="18" height="62" rx="9" fill="#FFC98F" stroke="#D67D2B" stroke-width="6"/>
+    <path d="M66 136C60 120 65 100 80 96V132C80 150 76 166 64 176C54 184 42 180 40 168C38 156 46 146 66 136Z" fill="#FFC588" stroke="#D67D2B" stroke-width="6"/>
+    <ellipse cx="122" cy="146" rx="21" ry="17" fill="#FFEAD4"/>
+    <circle cx="108" cy="127" r="5" fill="#FFE6CD"/>
+    <circle cx="134" cy="126" r="5" fill="#FFE6CD"/>
+    <circle cx="122" cy="164" r="4.5" fill="#FFDAB7"/>
+  </g>
+  <defs>
+    <filter id="fB" x="30" y="36" width="158" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="4" flood-color="#C77A31" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+</svg>
